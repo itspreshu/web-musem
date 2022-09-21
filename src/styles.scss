@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Catamaran";
+    src: local("Catamaran"), url(./assets/fonts/catamaran.ttf) format("truetype")
+}
+
+.parent{
+    height: 100vh;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+}
+
+.center-x-y{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Catamaran';
+}
+
+.text-light{
+    color: oldlace;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    padding: 10px;
+    margin: 5px;
+    background-color: greenyellow;
+    border-radius: 15px;
+
+    &:hover{
+        filter: brightness(85%)
+    }
+}
