@@ -1,6 +1,7 @@
 {
   "name": "web-museum-front",
   "version": "0.0.0",
+  "homepage": "https://itspreshu.github.io/web-musem/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
